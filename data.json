@@ -1,0 +1,27 @@
+{
+    "profile": {
+        "name": "Chrystalio (Kristoff)",
+        "avatar": "-",
+        "bio": "A brief description about yourself or tagline"
+    },
+    "links": [
+        {
+            "title": "Portfolio Site",
+            "url": "https://kriscode.cloud"
+        },
+        {
+            "title": "GitHub",
+            "url": "https://github.com/chrystalio"
+        }
+    ],
+    "socials": [
+        {
+            "platform": "Twitter",
+            "url": "https://twitter.com/chrystalio"
+        },
+        {
+            "platform": "LinkedIn",
+            "url": "https://linkedin.com/in/chrystalio"
+        }
+    ]
+}
