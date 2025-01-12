@@ -1,27 +1,55 @@
 {
     "profile": {
         "name": "Chrystalio (Kristoff)",
-        "avatar": "-",
-        "bio": "A brief description about yourself or tagline"
+        "avatar": "https://avatars.githubusercontent.com/u/82774717?v=4",
+        "bio": "I spend most of my time staring at a screen and mumbling about bugs and syntax errors."
     },
     "links": [
         {
-            "title": "Portfolio Site",
-            "url": "https://kriscode.cloud"
+            "title": "🔗 Portfolio",
+            "href": "https://kriscode.cloud"
         },
         {
-            "title": "GitHub",
-            "url": "https://github.com/chrystalio"
+            "title": "📚 Bookmarks & Resources",
+            "href": "https://bookmarks.kristoff.my.id/"
+        },
+        {
+            "title": "Tutorial Deploy Image Container ke Google Cloud Run",
+            "href": "https://youtu.be/kJqqSAyuVWU?si=5gu4HBhk7agVfK3y"
+        },
+        {
+            "title": "Deploy Website Statis dengan Vercel",
+            "href": "https://youtu.be/QpyAvx91crQ?si=LDBa4SS1_etKiUPx"
         }
     ],
     "socials": [
         {
-            "platform": "Twitter",
-            "url": "https://twitter.com/chrystalio"
+            "platform": "GitHub",
+            "href": "https://github.com/chrystalio/"
+        },
+        {
+            "platform": "X",
+            "href": "https://x.com/Kristoff_id"
+        },
+        {
+            "platform": "YouTube",
+            "href": "https://www.youtube.com/@magerkoding430"
+        },
+        {
+            "platform": "Instagram",
+            "href": "https://www.instagram.com/kristoff_id/"
         },
         {
             "platform": "LinkedIn",
-            "url": "https://linkedin.com/in/chrystalio"
+            "href": "https://www.linkedin.com/in/chrystalio/"
+        },
+        {
+            "platform": "Spotify",
+            "href": "https://open.spotify.com/user/myrn6zom95apm44776uazu2qg?si=1a12f264d5534353"
+        },
+        {
+            "platform": "Telegram",
+            "href": "https://t.me/kristoffid"
         }
     ]
 }
