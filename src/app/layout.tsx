@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "LinkZu - Kristoff",
-  description: "A simple linktree clone for Kristoff",
+  description: "A simple and modern list of links, built by Kristoff.",
 };
 
 export default function RootLayout({
@@ -13,8 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head />
       <body
         className="antialiased text-white bg-gradient-to-r from-slate-900 to-slate-700"
+        style={{ fontFamily: "'Reenie Beanie', cursive" }}
       >
         {children}
       </body>
