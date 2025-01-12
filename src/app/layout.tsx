@@ -15,8 +15,8 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body
-        className="antialiased text-white bg-gradient-to-r from-slate-900 to-slate-700"
-        style={{ fontFamily: "'Reenie Beanie', cursive" }}
+        className="antialiased text-white bg-gradient-to-r from-slate-900 to-slate-700 subpixel-antialiased"
+        style={{ fontFamily: "'Reenie Beanie', cursive, sans-serif" }}
       >
         {children}
       </body>
