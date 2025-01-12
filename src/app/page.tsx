@@ -59,7 +59,7 @@ export default function Home() {
       <p className="text-sm text-white-500 mt-3 mb-4 max-w-md text-center">
         {data.profile.bio}
       </p>
-      <div className="flex items-center justify-center gap-6 mb-4 text-white">
+      <div className="flex items-center justify-center gap-3 mb-4 text-white max-w-sm">
       {data.socials.map((social) => (
         <a
           aria-label={`${social.platform} link`}
