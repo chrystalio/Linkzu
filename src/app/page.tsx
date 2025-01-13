@@ -5,7 +5,7 @@ import SocialIcon from "./components/SocialIcon";
 
 export default function Home() {
   return (
-    <div className="flex items-center flex-col mx-auto w-full justify-center mt-32 px-8">
+    <div className="flex items-center flex-col mx-auto w-full justify-center mt-14 md:mt-36 px-8">
       <Image className="rounded-full shadow-lg" alt={data.profile.name} src={data.profile.avatar} width={96} height={96} />
       <h1 className="font-semibold mt-4 text-xl text-white">
         {data.profile.name}
@@ -14,7 +14,7 @@ export default function Home() {
         {data.profile.bio}
       </p>
       
-      <div className="flex items-center justify-center gap-3 mb-4 text-white max-w-sm">
+      <div className="flex items-center justify-center gap-1 md:gap-4 mb-4 text-white max-w-sm">
         {data.socials.map((social) => (
           <SocialIcon key={social.href} platform={social.platform} href={social.href} />
         ))}
@@ -22,7 +22,8 @@ export default function Home() {
 
       {data.links.map((link) => (
           <LinkCard key={link.title} title={link.title} href={link.href} />
-        ))}
+        )
+      )}
     </div>
   );
 }
