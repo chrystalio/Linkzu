@@ -14,6 +14,10 @@
             "href": "https://bookmarks.kristoff.my.id/"
         },
         {
+            "title": "📝 Blog",
+            "href": "https://blog.kristoff.my.id/"
+        },
+        {
             "title": "Tutorial Deploy Image Container ke Google Cloud Run",
             "href": "https://youtu.be/kJqqSAyuVWU?si=5gu4HBhk7agVfK3y"
         },
