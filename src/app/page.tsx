@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div className="flex items-center flex-col mx-auto w-full justify-center mt-14 md:mt-36 px-8">
       <Image className="rounded-full shadow-lg" alt={data.profile.name} src={data.profile.avatar} width={96} height={96} />
-      <h1 className="font-semibold mt-4 text-xl text-white">
+      <h1 className="font-semibold mt-4 text-xl lg:text-2xl">
         {data.profile.name}
       </h1>
-      <p className="text-sm text-white-500 mt-3 mb-4 max-w-md text-center">
+      <p className="text-sm lg:text-lg/5 text-white-500 mt-3 mb-4 max-w-md text-center">
         {data.profile.bio}
       </p>
       
